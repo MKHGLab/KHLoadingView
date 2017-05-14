@@ -20,9 +20,23 @@ it, simply add the following line to your Podfile:
 pod "KHLoadingView"
 ```
 
+## Usage
+
+`import KHLoadingView` to your project. And then follow the example-
+
+```Swift
+override func viewDidLoad() {
+    super.viewDidLoad()
+    // Do any additional setup after loading the view, typically from a nib.
+
+    let loading = KHLoading()
+    loading.showLoadingView(parentView:self.view)
+}
+```
+
 ## Author
 
-mkhglab@gmail.com, kamrul@pathao.com
+MKHGLab, mkhglab@gmail.com
 
 ## License
 
