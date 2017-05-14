@@ -7,12 +7,19 @@
 //
 
 import UIKit
+import KHLoadingView
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        let loading = KHLoading()
+        loading.showLoadingView(parentView:self.view)
+        
+        
     }
 
     override func didReceiveMemoryWarning() {

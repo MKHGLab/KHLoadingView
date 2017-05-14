@@ -1,0 +1,22 @@
+{
+  "name": "KHLoadingView",
+  "version": "0.1.0",
+  "summary": "A short description of KHLoadingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mkhglab@gmail.com/KHLoadingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mkhglab@gmail.com": "kamrul@pathao.com"
+  },
+  "source": {
+    "git": "https://github.com/mkhglab@gmail.com/KHLoadingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "KHLoadingView/Classes/**/*"
+}

@@ -1,0 +1,16 @@
+PODS:
+  - KHLoadingView (0.1.0)
+
+DEPENDENCIES:
+  - KHLoadingView (from `../`)
+
+EXTERNAL SOURCES:
+  KHLoadingView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  KHLoadingView: a943de07c27b6ff22be71739de951689adef6c0e
+
+PODFILE CHECKSUM: 0f3638811ff9dfd6a8e123fdd39a0efa3e9b4a45
+
+COCOAPODS: 1.2.1
