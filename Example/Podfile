@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KHLoadingView_Example' do
+  pod 'KHLoadingView', :path => '../'
+
+  target 'KHLoadingView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
